@@ -1,0 +1,28 @@
+body {
+    position: relative;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    height: 100vh;
+    text-align: center;
+    color: #111111;
+}
+
+.title {
+    font-size: 5em;
+}
+
+.shrug {
+    font-size: 5em;
+}
+
+.text {
+    font-size: 2em;
+}
+
+.gradient {
+    background-image:
+      linear-gradient(
+        to top right, 
+        #93a5cf, #e4efe9
+      );
+  }
